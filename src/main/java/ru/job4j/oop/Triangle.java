@@ -29,8 +29,6 @@ public class Triangle {
         if (this.exist(ab, ac, bc)) {
             double p = semiPerimeter(ab, ac, bc);
             return sqrt((p * (p - ab)) * (p - ac) * (p - bc));
-        } else {
-            result = -1;
         }
         return result;
     }
