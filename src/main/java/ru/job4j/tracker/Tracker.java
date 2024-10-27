@@ -29,7 +29,7 @@ public class Tracker {
         Item[] result = new Item[items.length];
         int resultSize = 0;
 
-        for (int index = 0; index < size; index++) { // Перебираем только заполненные элементы
+        for (int index = 0; index < size; index++) {
             Item item = items[index];
             if (item != null) {
                 result[resultSize] = item;
@@ -43,7 +43,7 @@ public class Tracker {
         Item[] result = new Item[items.length];
         int resultSize = 0;
 
-        for (int index = 0; index < size; index++) { // Перебираем только заполненные элементы
+        for (int index = 0; index < size; index++) {
             Item item = items[index];
             if (item.getName().equals(key)) {
                 result[resultSize] = item;
