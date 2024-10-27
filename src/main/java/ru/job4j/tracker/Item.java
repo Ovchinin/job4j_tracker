@@ -1,6 +1,5 @@
 package ru.job4j.tracker;
 
-import ru.job4j.oop.Computer;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
